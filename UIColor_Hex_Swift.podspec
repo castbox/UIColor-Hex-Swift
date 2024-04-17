@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "UIColor_Hex_Swift"
-  s.version = "5.2.0"
+  s.version = "5.2.1"
   s.summary = "Convenience method for creating autoreleased color using RGBA hex string."
   s.homepage = "https://github.com/castbox/UIColor-Hex-Swift"
   s.license = { :type => "MIT", :file => "LICENSE" }
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   
   s.subspec 'Privacy' do |ss|
       ss.resource_bundles = {
-        "Privacy" => 'HEXColor/PrivacyInfo.xcprivacy'
+          s.name => 'HEXColor/PrivacyInfo.xcprivacy'
       }
   end
 end
