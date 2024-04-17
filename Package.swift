@@ -22,7 +22,7 @@ let package = Package(
             name: "UIColorHexSwift",
             dependencies: [],
             path: "HEXColor",
-            resources: [.process("UIColor_Hex_Swift.podspec")]
+            resources: [.process("PrivacyInfo.xcprivacy")]
         )
     ]
 )
